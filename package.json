@@ -29,5 +29,6 @@
   },
   "homepage": "https://github.com/Patel-Vipul/Password-Generator",
   "predeploy": "npm run build",
+  
   "deploy": "gh-pages -d dist"
 }
