@@ -1,16 +1,64 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **Password Generator** built using **React (Vite)** and **Tailwind CSS v4**.  
+It allows users to create secure passwords with customizable options — alphabets, numbers, and symbols — and easily copy them to the clipboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+🔗 **Live Preview:** [Password Generator](https://patel-vipul.github.io/Password-Generator/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Features
+- 🎲 Generate random passwords instantly  
+- 🔠 Include alphabets (uppercase & lowercase)  
+- 🔢 Include numbers  
+- 💎 Include special symbols  
+- 📏 Adjustable password length (4–25)  
+- 📋 Copy password to clipboard with one click  
+- ⚡ Instant feedback (“Copied!” or “Nothing to Copy!”)  
+- 💬 Responsive layout and smooth transitions  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- ⚛️ **React 19**
+- 🧩 **Vite**
+- 🎨 **Tailwind CSS v4**
+- 🚀 **GitHub Pages** (for deployment)
+
+---
+
+## 📁 Folder Structure
+
+Password-Generator/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## 💻 Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Patel-Vipul/Password-Generator.git
+cd Password-Generator
+npm install
+npm run dev
+
+```
+
+---
+
+👨‍💻 Author
+
+Vipul Patel
+📎 GitHub Profile
